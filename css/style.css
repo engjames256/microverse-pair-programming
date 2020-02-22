@@ -1,0 +1,84 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  background-color: black;
+  height: 6%;
+  padding-top: 13px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  padding-right: 10px;
+}
+
+a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+
+  padding-right: 10px;
+  padding: 8px;
+}
+
+#welcome-section {
+  background-image: url("https://previews.123rf.com/images/peshkov/peshkov1905/peshkov190500374/128578729-abstract-glowing-circuit-coding-background-programming-and-technology-concept-3d-rendering.jpg");
+  border: 2px solid red;
+  height: 600px;
+}
+
+#welcome-section h1 {
+  color: white;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  #welcome-section {
+    background-image: url("https://previews.123rf.com/images/peshkov/peshkov1905/peshkov190500374/128578729-abstract-glowing-circuit-coding-background-programming-and-technology-concept-3d-rendering.jpg");
+    border: 2px solid red;
+    height: 800px;
+  }
+  #welcome-section h1 {
+    color: white;
+    padding-top: 75px;
+    padding-left: 10px;
+  }
+  #projects {
+    height: 800px;
+    display: flex;
+  }
+  .project-area {
+    width: 45%;
+    border-radius: 10px;
+    margin: 80px 35px 35px 35px;
+  }
+  .project-title {
+    color: white;
+    padding: 5px;
+    height: 35px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+  }
+  img {
+    width: 98%;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  .project-description {
+    border: 1px solid black;
+    color: black;
+    background-color: grey;
+    border-radius: 10px;
+    text-align: center;
+  }
+}
