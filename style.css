@@ -1,23 +1,47 @@
 #nav {
   background-color: black;
-  height: 30px;
+  height: 4%;
   padding-top: 10px;
   position: fixed;
   width: 100%;
+  text-align: center;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
   margin: 10px;
+  padding-right: 10px;
 }
 
-a:hover{
+a:hover {
   color: black;
   background-color: white;
   border-radius: 10px;
-  padding:8px;
 
-
+  padding-right: 10px;
+  padding: 8px;
 }
 
+.main {
+  padding-top: 50px;
+  height: 685px;
+}
+
+#welcome-section {
+  border: 2px solid red;
+  height: 680px;
+}
+
+#footer {
+  background-color: black;
+  height: 4%;
+  padding-bottom: 10px;
+  width: 100%;
+  position: fixed;
+}
+
+#footer p {
+  color: white;
+  text-align: center;
+}
